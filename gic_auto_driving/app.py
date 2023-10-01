@@ -43,9 +43,6 @@ class DrivingSupervisor:
         for car in self.cars.values():
             if not self.is_valid_position(car.x, car.y) or not self.is_collision(car.x, car.y):
                 self.io_handler.print_output(f"Skipping simulation for car {car.name}.")
-            # else:
-            # if not self.is_valid_position(car.x, car.y):
-            #     self.io_handler.print_output(f"Skipping simulation for car {car.name}.")
             else:
                 self.move_car(car)
                 driving_report.append((car.name, car.x, car.y))
