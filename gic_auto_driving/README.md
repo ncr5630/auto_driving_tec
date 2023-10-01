@@ -80,3 +80,22 @@ After running simulation App can get driving report from Supervisor and via Cons
    ```shell
       poetry run coverage run -m pytest
    ```
+4. You can easily run test and coverage reports by running the following command in the root 
+   ```shell
+       sh code_test_n_coverage.sh
+   ```
+   After it completes, open htmlcov/index.html to easily access the report.
+   ![demo](../images/coverage_and_test.png)
+
+   or 
+
+5. To view the test and coverage report in the terminal, simply run the following command
+   
+   ```shell
+       virtualenv venv_test -p /usr/bin/python3
+       . venv_test/bin/activate
+       python -m pip install -r test-requirements.txt
+       poetry run coverage run -m pytest
+       coverage report -m
+   ```
+   ![demo](../images/report_in_the_terminal.png)
