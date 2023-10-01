@@ -4,6 +4,8 @@ class Car:
         self.x = x
         self.y = y
         self.direction = direction
+
+
 class ConsoleInputOutput:
     @staticmethod
     def get_input(prompt):
@@ -12,6 +14,7 @@ class ConsoleInputOutput:
     @staticmethod
     def print_output(output):
         print(output)
+
 
 class DrivingSupervisor:
     def __init__(self, io_handler):
