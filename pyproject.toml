@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "gic_auto_driving"
+version = "0.1.0"
+description = "Auto Driving Test"
+authors = ["ncr5630 <ncr5630@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

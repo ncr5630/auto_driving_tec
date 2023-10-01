@@ -1,0 +1,48 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.conf
+*.env
+*.pem
+*.xml
+*.iml
+.Python
+.idea/
+.idea
+develop-eggs/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+*.manifest
+*.spec
+SQL ad.txt
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*,cover
+.hypothesis/
+venv/
+venv_test/
+win_env/
+.python-version
+# Translations
+*.mo
+*.pot
+# Django stuff:
+*.log
+
+
+
