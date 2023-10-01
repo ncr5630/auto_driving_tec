@@ -19,6 +19,9 @@ After running simulation App can get driving report from Supervisor and via Cons
 
 ![demo](../images/gic_auto_driving_demo.png)
 
+## Coverage
+![demo](../images/coverage_report.png)
+
 ## Project explanation
 
 ### build tool:
