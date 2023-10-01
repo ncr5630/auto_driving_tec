@@ -2,7 +2,7 @@
 
 ## Design
 
-![design diagram](images/design_diagram.png "diagram")
+![design diagram](images/design_diagram.png)
 
 Split app for 2 parts - interaction & core
 
@@ -17,7 +17,7 @@ After running simulation App can get driving report from Supervisor and via Cons
 
 ## Demo
 
-![demo](images/gic_auto_driving_demo.gif)
+![demo](images/gic_auto_driving_demo.png)
 
 ## Project explanation
 
@@ -77,4 +77,3 @@ After running simulation App can get driving report from Supervisor and via Cons
    ```shell
       poetry run coverage run -m pytest
    ```
-   
