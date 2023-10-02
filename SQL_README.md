@@ -1,5 +1,5 @@
 #### Test Questions and answers
-Q1. If initial car position out of field, should not execute any commands.
+Q1. Write a SQL query to retrieve the top 10 most borrowed books, along with the number of times each book has been borrowed.
 
 Ans. 
 ```db2
